@@ -9,14 +9,14 @@ public class Registry {
      */
     private ArrayList<Integer> votantes = new ArrayList<Integer>();
 
-    
+
     /**
      * Check if the voter could vote
      * @param p person that is Voting
      * @return Register Result
      */
     public RegisterResult registerVoter(Person p) {
-        RegisterResult result = null;
+        RegisterResult result = RegisterResult.VALID;
         if(p.isAlive()){
             if(p.getAge()<18){
                 result = p.getAge()< 0?RegisterResult.UNDERAGE:RegisterResult.INVALID_AGE;
@@ -24,7 +24,6 @@ public class Registry {
                 result = RegisterResult.DUPLICATED;
             }else{
                 votantes.add(p.getId());
-                result = RegisterResult.VALID;
             }
         }else{
             result = RegisterResult.DEAD;
