@@ -10,7 +10,7 @@ public class TarifasTest {
     public void validateSieteUnoCaso() {
         
         double result = edu.eci.cvds.tdd.aerodescuentos.CalculadorDescuentos.calculoTarifa(10,20,13);
-        Assert.assertEquals(result, 10,0);
+        Assert.assertEquals(result, 9,5);
     }
     @Test
     public void validateSieteDosCaso() {
