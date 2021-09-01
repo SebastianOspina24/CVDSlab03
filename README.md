@@ -26,15 +26,15 @@ Hay que cambiar la versión del compilador de Java a la versión 8, para ello, a
 
 - `    `</properties>
 
- ![](ClasesEquivalencia/src/sourceAspose.Words.39b2b249-4705-4834-a942-1c014e8aa647.001.png)
+ ![](https://i.ibb.co/J3FyfpB/Aspose-Words-39b2b249-4705-4834-a942-1c014e8aa647-001.png)
 ## COMPILAR Y EJECUTAR
 - Ejecute los comandos necesarios de Maven, para compilar el proyecto y verificar que el proyecto se creó correctamente y los cambios realizados al archivo pom no generan inconvenientes.
 
- ![](ClasesEquivalencia/src/sourceAspose.Words.39b2b249-4705-4834-a942-1c014e8aa647.002.png)
+ ![](https://i.ibb.co/qJsJPF9/Aspose-Words-39b2b249-4705-4834-a942-1c014e8aa647-002.png)
 
 - Busque el comando requerido para ejecutar las pruebas unitarias de un proyecto desde Maven y ejecútelo sobre el proyecto. Se debe ejecutar la clase AppTest con resultado exitoso.
 
- ![](ClasesEquivalencia/src/sourceAspose.Words.39b2b249-4705-4834-a942-1c014e8aa647.003.png)
+ ![](https://i.ibb.co/6XGhB6x/Aspose-Words-39b2b249-4705-4834-a942-1c014e8aa647-003.png)
 
 ## EJERCICIO “REGISTRADURÍA”
 Se va a crear un proyecto base para un requerimiento de la registraduría en el cual se registran personas con intención de votar para las próximas elecciones y se generarán los certificados electorales de aquellas personas cuyo voto sea válido.
@@ -387,13 +387,13 @@ public class RegistryTest {
 
 $ mvn package
 
- ![](ClasesEquivalencia/src/sourceAspose.Words.39b2b249-4705-4834-a942-1c014e8aa647.004.png)
+ ![](https://i.ibb.co/thnqw8W/Aspose-Words-39b2b249-4705-4834-a942-1c014e8aa647-004.png)
 
 - Tambien puede utilizar:
 
 $ mvn test
 
- ![](ClasesEquivalencia/src/sourceAspose.Words.39b2b249-4705-4834-a942-1c014e8aa647.005.png)
+ ![](https://i.ibb.co/FbBrWtB/Aspose-Words-39b2b249-4705-4834-a942-1c014e8aa647-005.png)
 
 Revise cual es la diferencia.
 
@@ -402,11 +402,11 @@ Revise cual es la diferencia.
 - Piense en los casos de equivalencia que se pueden generar del ejercicio para la registraduría, dadas las condiciones. Deben ser al menos 5.
 - Complete la implementación del método registerVoter en la clase Registry.java para retornar el resultado esperado según la entrada.
 
- ![](ClasesEquivalencia/src/sourceAspose.Words.39b2b249-4705-4834-a942-1c014e8aa647.006.png)
+ ![](https://i.ibb.co/4FpkMMV/Aspose-Words-39b2b249-4705-4834-a942-1c014e8aa647-006.png)
 
 - Complete la implementación de la clase RegistryTest.java con (al menos) un método por cada clase de equivalencia, creando diferentes personas y validando que el resultado sea el esperado.
 
- ![](ClasesEquivalencia/src/sourceAspose.Words.39b2b249-4705-4834-a942-1c014e8aa647.007.png)
+ ![](https://i.ibb.co/86sp5bF/Aspose-Words-39b2b249-4705-4834-a942-1c014e8aa647-007.png)
 # EJERCICIO "DESCUENTO DE TARIFAS"
 ## REALIZAR DISEÑO DE PRUEBAS
 - Para realizar de forma correcta el diseño de sus pruebas responda las preguntas que se encuentran en el siguiente [documento](https://campusvirtual.escuelaing.edu.co/moodle/pluginfile.php/142929/mod_assign/intro/EjercicioClasesEquivalencia.pdf).
@@ -415,7 +415,7 @@ Revise cual es la diferencia.
   Para adicionar una librería personalizada al repositorio local de maven puede ejecutar el siguiente comando.
   $ mvn install:install-file -Dfile=aerodescuentos-1.0.0.jar -DgroupId=edu.eci.cvds -DartifactId=aerodescuentos -Dversion=1.0.0 -Dpackaging=jar
 
- ![](ClasesEquivalencia/src/sourceAspose.Words.39b2b249-4705-4834-a942-1c014e8aa647.008.png)
+ ![](https://i.ibb.co/h89St1y/Aspose-Words-39b2b249-4705-4834-a942-1c014e8aa647-008.png)
 
 - Cree el archivo TarifasTest.java en el directorio src/test/java/edu/eci/cvds/tdd/aerodescuentos.
   Realice la implementación de las pruebas propuestas en la etapa de diseño de pruebas en esta clase. Para sus pruebas debe usar el método "calculoTarifa" de la clase edu.eci.cvds.tdd.aerodescuentos.CalculadorDescuentos, que se encuentran dentro del JAR de la librería personalizada.
